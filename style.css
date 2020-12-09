@@ -1,15 +1,20 @@
 #scene{
+    background: linear-gradient(#00112b, #00040a);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
 
+#space_ship_object{
     width: 150px;
-    height: 150px;
+    height: auto;
     position: absolute;
-    top: 35%;
-    left: 45%;
+}
+#metheor{
+    width: 60px;/*rand value*/
+    height: 60px;/*rand value*/
+    background: #a6a6a6;
+    border-radius: 50px;
+    position: absolute;
 }
 
-
-.chevron-top{
-    display: block;
-    stroke: #000;
-    filter: drop-shadow(  0px 0px 100px rgba(0, 0, 0, 1));
-}
